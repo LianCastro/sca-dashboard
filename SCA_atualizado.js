@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2025-09-22
 // @description  Auto-fill missing time entries on SCA dashboard
-// @author       You
+// @author       Lian Castro
 // @match        http://sca.saude.ba.gov.br/dashboard/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
