@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         SCA Dashboard Auto-Fill
 // @namespace    http://tampermonkey.net/
-// @version      2025-09-22
+// @version      3.0.0
 // @description  Auto-fill missing time entries on SCA dashboard
-// @author       Lian Castro
+// @author       liancastro
+// @copyright    2025, Lian castro
 // @match        http://sca.saude.ba.gov.br/dashboard/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.br
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {
