@@ -127,10 +127,10 @@
         let buttonCount = 0;
         for (const child of parentElement.children) {
             if (child.tagName === 'BUTTON') { // Check if the child's tag name is 'BUTTON'
-            buttonCount++;
+                buttonCount++;
             }
             if (buttonCount >= 2) {
-            return true; // Found two or more buttons
+                return true; // Found two or more buttons
             }
         }
         return false; // Less than two buttons found
