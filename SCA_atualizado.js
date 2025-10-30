@@ -25,7 +25,7 @@
 
         for (let i = 1; i < table.rows.length - 1; i++) {
             const cell = table.rows[i].cells[table.rows[i].cells.length - 2].textContent;
-            if (cell && (table.rows[i].cells.length > 4 
+            if (cell && (table.rows[i].cells.length > 4
                         || hasTwoOrMoreButtonChildren(table.rows[i].cells[table.rows[i].cells.length - 1]))) {
                 COMPENSAR_HORAS = addTimes(COMPENSAR_HORAS, cell);
             }
@@ -118,7 +118,7 @@
             cell.style.fontWeight = "bold";
         }
     }
-    
+
     function hasTwoOrMoreButtonChildren(parentElement) {
         if (!parentElement || !parentElement.children) {
             return false; // Handle cases where parentElement is null or has no children
